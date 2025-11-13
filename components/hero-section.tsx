@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="/image.png"
           alt="Suri Vidyasagar College Campus"
           fill
           className="object-cover"
@@ -19,39 +19,41 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center text-white">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              Welcome to  {" "}
-              <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Suri Vidyasagar College
-              </span>
-            </h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Nurturing minds, building futures. Where excellence meets innovation in education, creating tomorrow's
-              leaders through comprehensive learning and character development.
-            </p>
-          </div>
+      <div className="relative z-10 container mx-auto px-4 text-center">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-10 text-white">
+            <div className="space-y-4">
+              <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                Welcome to {" "}
+                <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                  Suri Vidyasagar College
+                </span>
+              </h1>
+              <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
+                Nurturing minds, building futures. Where excellence meets innovation in education, creating
+                tomorrow's leaders through comprehensive learning and character development.
+              </p>
+            </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3">
-              Explore Our School
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Link href="/notices">
-              <Button
-                variant="outline"
-                size="lg"
-                className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-blue-900 bg-transparent"
-              >
-                Latest Notices
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3">
+                Explore Our School
+                <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-            </Link>
+              <Link href="/notices">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-blue-900 bg-transparent"
+                >
+                  Latest Notices
+                </Button>
+              </Link>
+            </div>
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center space-y-2">
               <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto">
                 <Users className="h-8 w-8" />

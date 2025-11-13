@@ -25,8 +25,8 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-              <GraduationCap className="h-6 w-6 text-white" />
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img src="/logo-1.jpg" alt="Suri Vidyasagar College Logo" className="w-full h-full object-cover" />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

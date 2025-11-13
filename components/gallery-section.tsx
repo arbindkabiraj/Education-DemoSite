@@ -13,14 +13,14 @@ export default function GallerySection() {
   const [popupImage, setPopupImage] = useState<{ src: string; alt: string } | null>(null)
 
   const galleryImages = [
-    { src: "/placeholder.svg?height=400&width=600", alt: "School Main Building", category: "Campus" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Science Laboratory", category: "Facilities" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Library", category: "Facilities" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Sports Ground", category: "Sports" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Computer Lab", category: "Technology" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Annual Function", category: "Events" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Classroom", category: "Academic" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Art Room", category: "Creative" },
+    { src: "/g1.jpeg", alt: "Campus View 1", category: "Campus" },
+    { src: "/g2.jpeg", alt: "Campus View 2", category: "Campus" },
+    { src: "/g3.jpeg", alt: "Laboratory", category: "Facilities" },
+    { src: "/g4.jpeg", alt: "Library", category: "Facilities" },
+    { src: "/g5.jpeg", alt: "Sports Ground", category: "Sports" },
+    { src: "/g6.jpeg", alt: "Computer Lab", category: "Technology" },
+    { src: "/g8.jpg", alt: "Annual Function", category: "Events" },
+    { src: "/g9.jpg", alt: "Classroom", category: "Academic" },
   ]
 
   const nextSlide = () => {
