@@ -23,7 +23,7 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-3xl p-10 text-white">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-10 text-white">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                 Welcome to {" "}
