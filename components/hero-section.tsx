@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Award, Users, BookOpen } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import AnimatedCounter from "./animated-counter"
+import { useState } from "react"
 
 export default function HeroSection() {
   return (
@@ -50,6 +52,26 @@ export default function HeroSection() {
                 </Button>
               </Link>
             </div>
+              <div className="mt-8 grid grid-cols-3 gap-6 text-center">
+                <div>
+                  <div className="text-3xl font-bold">
+                    <AnimatedCounter value={1200} />+
+                  </div>
+                  <div className="text-sm text-blue-100">Students</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold">
+                    <AnimatedCounter value={50} />+
+                  </div>
+                  <div className="text-sm text-blue-100">Expert Teachers</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold">
+                    <AnimatedCounter value={38} />
+                  </div>
+                  <div className="text-sm text-blue-100">Years</div>
+                </div>
+              </div>
           </div>
 
           {/* Stats */}
