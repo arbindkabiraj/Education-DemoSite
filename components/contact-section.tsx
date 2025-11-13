@@ -97,7 +97,7 @@ export default function ContactSection() {
                       <p className="text-muted-foreground">
                         123 Education Street
                         <br />
-                        Panchra District
+                        Suri District
                         <br />
                         State - 123456
                         <br />
@@ -136,9 +136,9 @@ export default function ContactSection() {
                     <div>
                       <h4 className="font-semibold text-lg">Email</h4>
                       <p className="text-muted-foreground">
-                        info@panchrahighschool.edu
+                        info@surividyasagar.edu
                         <br />
-                        principal@panchrahighschool.edu
+                        principal@surividyasagar.edu
                       </p>
                     </div>
                   </div>

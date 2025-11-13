@@ -44,7 +44,7 @@ export default function AboutSection() {
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Panchra High School has been a beacon of educational excellence for over three decades, shaping young
+              Suri Vidyasagar College has been a beacon of educational excellence for over three decades, shaping young
               minds and preparing students for a bright future.
             </p>
           </div>
@@ -53,7 +53,7 @@ export default function AboutSection() {
             <div className="space-y-6">
               <h3 className="text-3xl font-bold">Our Story</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded in 1985 with a vision to provide quality education to all, Panchra High School has grown from a
+                Founded in 1985 with a vision to provide quality education to all, Suri Vidyasagar College has grown from a
                 small institution to one of the most respected schools in the region. Our commitment to academic
                 excellence, character building, and holistic development has remained unwavering throughout our journey.
               </p>

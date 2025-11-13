@@ -30,7 +30,7 @@ export default function Header() {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Panchra High School
+                Suri Vidyasagar College
               </h1>
             </div>
           </Link>

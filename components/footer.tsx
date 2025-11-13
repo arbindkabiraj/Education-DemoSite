@@ -29,7 +29,7 @@ export default function Footer() {
                 <GraduationCap className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Panchra High School</h3>
+                <h3 className="text-xl font-bold">Suri Vidyasagar College</h3>
                 <p className="text-sm text-gray-400">Excellence in Education</p>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function Footer() {
                 <div className="text-gray-300 text-sm">
                   123 Education Street
                   <br />
-                  Panchra District
+                  Suri District
                   <br />
                   State - 123456, India
                 </div>
@@ -113,7 +113,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-purple-400 flex-shrink-0" />
-                <div className="text-gray-300 text-sm">info@panchrahighschool.edu</div>
+                <div className="text-gray-300 text-sm">info@surividyasagar.edu</div>
               </div>
             </div>
           </div>
@@ -124,8 +124,8 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Panchra High School. All rights reserved.
+              <p className="text-gray-400 text-sm">
+              © {new Date().getFullYear()} Suri Vidyasagar College. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link href="#" className="text-gray-400 hover:text-white transition-colors">

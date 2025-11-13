@@ -44,7 +44,7 @@ export default function NoticePage({ params }: NoticePageProps) {
                     <span className="text-white font-bold text-xl">PHS</span>
                   </div>
                   <div>
-                    <h1 className="text-2xl font-bold text-blue-900 dark:text-blue-100">PANCHRA HIGH SCHOOL</h1>
+                    <h1 className="text-2xl font-bold text-blue-900 dark:text-blue-100">SURI VIDYASAGAR COLLEGE</h1>
                     <p className="text-sm text-muted-foreground">Excellence in Education Since 1985</p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export default function NoticePage({ params }: NoticePageProps) {
                     <ul className="list-disc pl-6 space-y-2">
                       <li>All students must comply with the above instructions</li>
                       <li>Parents are requested to ensure their ward's participation</li>
-                      <li>For any queries, contact the school office</li>
+                      <li>For any queries, contact the college office</li>
                       <li>This notice is effective immediately</li>
                     </ul>
                   </div>
@@ -85,12 +85,12 @@ export default function NoticePage({ params }: NoticePageProps) {
                   <div className="mt-12 flex justify-between items-end">
                     <div>
                       <p className="font-medium">Issued by:</p>
-                      <p className="text-sm text-muted-foreground">School Administration</p>
+                      <p className="text-sm text-muted-foreground">College Administration</p>
                     </div>
                     <div className="text-right">
                       <div className="border-t border-gray-400 w-32 mb-2"></div>
                       <p className="font-medium">Principal</p>
-                      <p className="text-sm text-muted-foreground">Panchra High School</p>
+                      <p className="text-sm text-muted-foreground">Suri Vidyasagar College</p>
                     </div>
                   </div>
                 </div>

@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/placeholder.svg?height=1080&width=1920"
-          alt="Panchra High School Campus"
+          alt="Suri Vidyasagar College Campus"
           fill
           className="object-cover"
           priority
@@ -25,7 +25,7 @@ export default function HeroSection() {
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
               Welcome to  {" "}
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Panchra High School
+                Suri Vidyasagar College
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">

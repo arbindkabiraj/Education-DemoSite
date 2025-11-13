@@ -39,7 +39,7 @@ export default function StudentLoginPage() {
           const userData = {
             id: "1",
             name: "John Doe",
-            email: "john.doe@student.panchrahighschool.edu",
+            email: "john.doe@student.surividyasagar.edu",
             role: "student" as const,
             studentId: "STU001",
             grade: "Class 12",

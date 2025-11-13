@@ -9,9 +9,9 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Panchra High School - Excellence in Education",
+  title: "Suri Vidyasagar College - Excellence in Education",
   description:
-    "Panchra High School - Nurturing minds, building futures. A premier educational institution committed to academic excellence and holistic development.",
+    "Suri Vidyasagar College - Nurturing minds, building futures. A premier educational institution committed to academic excellence and holistic development.",
     generator: 'v0.dev'
 }
 

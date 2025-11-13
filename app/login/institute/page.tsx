@@ -38,7 +38,7 @@ export default function InstituteLoginPage() {
           const userData = {
             id: "admin1",
             name: "Dr. Rajesh Kumar",
-            email: "admin@panchrahighschool.edu",
+            email: "admin@surividyasagar.edu",
             role: "admin" as const,
           }
           login(userData)
