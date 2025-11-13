@@ -15,7 +15,7 @@ export default function HeroSection() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-purple-900/80" />
+    <div className="absolute inset-0 bg-gradient-to-r from-sky-900/70 to-emerald-900/60" />
       </div>
 
       {/* Content */}
@@ -25,7 +25,7 @@ export default function HeroSection() {
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                 Welcome to {" "}
-                <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text text-transparent">
                   Suri Vidyasagar College
                 </span>
               </h1>
@@ -35,8 +35,8 @@ export default function HeroSection() {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
+              <Button size="lg" className="bg-sky-600 hover:bg-sky-700 text-lg px-8 py-3">
                 Explore Our School
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -44,7 +44,7 @@ export default function HeroSection() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-blue-900 bg-transparent"
+                  className="text-lg px-8 py-3 border-amber-300 text-white hover:bg-amber-300 hover:text-sky-900 bg-transparent"
                 >
                   Latest Notices
                 </Button>
